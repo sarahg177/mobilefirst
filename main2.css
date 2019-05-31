@@ -1,0 +1,13 @@
+.column {
+    float:left;
+    width: 30%;
+    height: 50px;
+    background-color: #a44;
+    margin: 10px 0;
+}
+
+@media (min-width: 992px) {
+    .column {
+        margin: 10px;
+    }
+}
